@@ -1,7 +1,7 @@
-# REQUIREMENTS
-Create a HelloWorld app, embed Frida in it, and verify that you can attach to it
-Use the embedded.mobileprovision file from that project when you re-sign the target app
-You must use a dev certificate (not a deployment cert) to sign with or Frida will not launch, even if it successfully deploys
+## REQUIREMENTS
+* Create a HelloWorld app, embed Frida in it, and verify that you can attach to it
+* Use the embedded.mobileprovision file from that project when you re-sign the target app
+* You must use a dev certificate (not a deployment cert) to sign with or Frida will not launch, even if it successfully deploys
 
 # Commands
 ## Install patched app
