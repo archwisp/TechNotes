@@ -154,6 +154,7 @@ setuid or setgid (POSIX):
 find / -perm -4000 -o -perm -2000
 find / -type f -user root -perm -u=s
 find / -type f -user $USER -perm -u=w
+find / -type f -perm -o=w
 
 find / \( -type f -or -type d \) \
   \( \
